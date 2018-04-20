@@ -1,0 +1,154 @@
+h1,
+H2,
+H3,
+H4,
+H5 {
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 7vw;
+}
+
+h2 {
+  font-size: 4vw;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 3.5vw;
+}
+h4 {
+  font-size: 2.5vw;
+}
+
+.side-right {
+  text-align: right;
+}
+
+.fp-slidesNav{
+  text-align: center;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+  /* background: #de0e0e; */
+  /* border: 1px solid #fff; */
+}
+
+.fp-controlArrow.fp-prev{
+  border-color: transparent #d2ab4c transparent transparent;
+  left: 8vw;
+  border-width: 2.0vw 1.9vw 2.0vw 0;
+}
+.fp-controlArrow.fp-next{
+  border-color: transparent transparent transparent #d2ab4c;
+  right: 8vw;
+  border-width: 2.0vw 0 2.0vw 1.9vw;
+}
+
+#fp-nav.left{
+  left: 10px;
+}
+
+body {
+  font-family: lalezarweb;
+  color: #484848;
+  font-size: 1.25vw;
+}
+
+.content-inner {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+
+.content-inner h1,
+.content-inner h2,
+.content-inner h3,
+.content-inner h4,
+.content-inner p {
+  width: 58vw;
+  margin: 0 auto;
+
+}
+
+.content-inner h1,
+.content-inner h2,
+.content-inner h3,
+.content-inner h4{
+  line-height: 1.2;
+}
+
+.content-inner h1+P:first-of-type,
+.content-inner h2+P:first-of-type,
+.content-inner h3+P:first-of-type,
+.content-inner h4+P:first-of-type{
+  margin-top: 60px;
+}
+
+
+
+.content-inner p {
+  font-family: BehdadWeb;
+  line-height: 1.9;
+}
+
+
+.content-inner p+p {
+  margin-top: 1.1vw;
+}
+
+#Intro {
+  background: #41474c;
+  color: #fff;
+}
+#Intro h3{
+  margin: 0;
+}
+
+
+
+#persian-script {
+  /* background:#eae1c0;
+  color: #41474c; */
+  background: #963c3c;
+  color: #fff;
+}
+
+
+
+#persian-script p {
+  color: #ededed;
+}
+
+#changes-overtime {
+  background: #3e3e3e;
+  color: #e7c326;
+}
+#changes-overtime h2 {
+  line-height: 1;
+}
+#changes-overtime h2 {
+  margin-bottom: 70px;
+}
+
+#changes-overtime a {
+  margin: 20px;
+  color: #484848;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#changes-overtime a:hover {
+  color: #cf5e5e;
+}
+
+.video-frame {
+  border: 1px solid #aaa;
+  box-shadow: -1px 8px 33px -5px #000c;
+}
